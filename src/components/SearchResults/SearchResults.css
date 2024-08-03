@@ -1,0 +1,25 @@
+.list-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Elevation effect */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Optional: Adds a blur effect to the background */
+    margin: 2rem;
+    margin-right: 1rem;
+    width: 35vw;
+    height: 75vh; /* Set a fixed height to enable scrolling */
+    overflow-y: auto; /* Adds vertical scrollbar */
+    color: aliceblue;
+}
+h3{
+    margin: 0.5rem;
+    padding: 0rem;
+    color: rgb(0, 197, 82);
+}
+
+p{
+    margin: 0.5rem;
+    padding: 0;
+}

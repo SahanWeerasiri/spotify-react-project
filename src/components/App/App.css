@@ -1,0 +1,19 @@
+.App{
+    background-image: url('../../music_background.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Center the items vertically */
+}
+.App-body{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Center the items vertically */
+}

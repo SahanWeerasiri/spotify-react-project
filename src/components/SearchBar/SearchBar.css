@@ -1,0 +1,49 @@
+/* Button Styling */
+.button {
+    margin-left: 3rem;
+    background-color: rgb(181, 180, 180);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 10px 20px; /* Adjusted padding for better appearance */
+    margin-top: 1%;
+    border-radius: 5px; /* Changed to px for more consistent appearance */
+    border: none; /* Removed default border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: rgb(150, 150, 150); /* Darker shade on hover */
+}
+
+/* Search Bar Container */
+.search-bar {
+    display: flex;
+    padding-top: 5px;
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Center the items vertically */
+    width: 100vw;
+    height: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Input Text Styling */
+.search input[type="text"] {
+    width: 70%; /* Adjust width as needed */
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+    outline: none; /* Remove default outline */
+}
+
+.search input[type="text"]:focus {
+    border-color: #888; /* Change border color on focus */
+}
+
+/* Button Styling within Search Bar */
+.search .button {
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    margin: 0; /* Remove margin */
+}
